@@ -2,7 +2,6 @@
 public class reverseArray {
     public static void reverse(int numbers[]) {
         int first = 0, last = numbers.length-1;
-
         while(first < last) {
             //swap
             int temp = numbers[last];
@@ -24,3 +23,4 @@ public class reverseArray {
         System.err.println();
     }
 }
+

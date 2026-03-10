@@ -22,7 +22,7 @@
 //     }
 // }
 
-//Largest Number in Array
+//Largest value & Smallest value in Array
 
 public class linearSearch {
     public static int getLargest(int numbers[]) {
@@ -45,3 +45,4 @@ public class linearSearch {
         System.out.println("larest value is :" + getLargest(numbers));
     }
 }
+

@@ -1,3 +1,9 @@
+// There are 2 questions on linear Search
+// first is for find a key in an array
+// second is for find the largest & smallest values in an array 
+
+// first question -- Find a key in an array 
+
 // public class linearSearch {
 //     public static int linearSearch(int numbers[], int key){
 
@@ -22,7 +28,7 @@
 //     }
 // }
 
-//Largest value & Smallest value in Array
+// Second question -- Largest value & Smallest value in Array
 
 public class linearSearch {
     public static int getLargest(int numbers[]) {
@@ -45,4 +51,5 @@ public class linearSearch {
         System.out.println("larest value is :" + getLargest(numbers));
     }
 }
+
 
